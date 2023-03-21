@@ -1,9 +1,12 @@
 :root {
-    --second-color-btn: #FFFFFF;
+  --second-color-btn: #ffffff;
+  --second-color-link: #434455;
+  --second-color-footer: #F4F4FD;
 }
 
 body {
   font-family: "Roboto", "sans-serif";
+  font-weight: 500;
   color: #2e2f42;
 }
 
@@ -18,13 +21,14 @@ body {
 /**=================HEDAR=================*/
 
 .navigation {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
+.navigation:is(:hover, :focus) {
+  color:var(--second-color-link)
+}
 .address {
   font-weight: 400;
   font-size: 16px;
@@ -38,13 +42,50 @@ body {
 
 /**=================MAIN-page-2=================*/
 .header-btn {
-  
-  background-color: #f4f4fd;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   cursor: pointer;
   color: #4d5ae5;
 }
 
 .header-btn:is(:hover, :focus) {
   background-color: #404bbf;
-  color:var(--second-color-btn)
+  color: var(--second-color-btn);
+}
+
+/**=================PORTFOLIO=================*/
+
+.portfolio-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.lower-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/**=================PORTFOLIO=================*/
+
+.footer {
+  background-color: #2E2F42;
+}
+
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.footer-text {
+  color: var(--second-color-footer)
 }
