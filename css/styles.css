@@ -1,23 +1,50 @@
+:root {
+    --second-color-btn: #FFFFFF;
+}
+
 body {
-    font-family: "Roboto", 'sans-serif';
-    
+  font-family: "Roboto", "sans-serif";
+  color: #2e2f42;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /**=================HEDAR=================*/
 
+.navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .address {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .address:is(:hover, :focus) {
-color: #4D5AE5;
+  color: #4d5ae5;
 }
 
 /**=================MAIN-page-2=================*/
+.header-btn {
+  
+  background-color: #f4f4fd;
+  cursor: pointer;
+  color: #4d5ae5;
+}
 
-.button-p2 {
-    
+.header-btn:is(:hover, :focus) {
+  background-color: #404bbf;
+  color:var(--second-color-btn)
 }
