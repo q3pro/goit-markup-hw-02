@@ -6,7 +6,8 @@
   --nav-link-color: #2e2f42;
   --second-link-color: #404bbf;
   --address-color: #434455;
-  --second-address-color: #404bbf ;
+  --second-address-color: #404bbf;
+  --second-color-btn: #E7E9FC;
 }
 
 body {
@@ -58,17 +59,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:var(--address-color);
+  color: var(--address-color);
 }
 .address:is(:hover, :focus) {
-  color:var(--second-address-color) ;
+  color: var(--second-address-color);
 }
 
 /**=================BUTTONS=================*/
-.buttons{
-
+.buttons {
 }
- .header-btn {
+.header-btn {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -80,7 +80,7 @@ body {
 
 .header-btn:is(:hover, :focus) {
   background-color: #404bbf;
-  color: var(--second-color-btn); 
+  color: var(--second-color-btn);
 }
 
 /**=================MAIN=================*/
