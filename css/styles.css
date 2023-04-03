@@ -1,11 +1,12 @@
 :root {
-  --second-color-btn: #ffffff;
+  /* --second-color-btn: #ffffff;
   --second-color-link: #404BBF;
-  --second-color-footer: #F4F4FD;
+  --second-color-footer: #F4F4FD; */
   --body-background-color: #FFFFFF;
   --logo-color: #4d5ae5;
   --span-logo-color:#2e2f42;
-  --nav-link-color: 
+  --nav-link-color: #2e2f42;
+  --second-link-color:#404bbf;
 }
 
 body {
@@ -41,13 +42,17 @@ body {
   color:var(--span-logo-color)
 }
 
-
 .link-nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: 
+  color: var(--nav-link-color)
 }
-.adress:is(:hover, :focus) {
+
+.link-nav:is(:hover, :focus){
+color:var(--second-link-color)
+}
+
+.address:is(:hover, :focus) {
   color:var(--second-color-link)
 }
 .address {
