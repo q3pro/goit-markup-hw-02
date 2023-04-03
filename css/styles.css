@@ -68,8 +68,7 @@ body {
 .buttons{
 
 }
-
-/* .header-btn {
+ .header-btn {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -81,7 +80,7 @@ body {
 
 .header-btn:is(:hover, :focus) {
   background-color: #404bbf;
-  color: var(--second-color-btn); */
+  color: var(--second-color-btn); 
 }
 
 /**=================MAIN=================*/
