@@ -4,6 +4,7 @@
   --second-color-footer: #F4F4FD;
   --body-background-color: #FFFFFF;
   --logo-color: #4d5ae5;
+  --span-logo-color:#2e2f42;
 }
 
 body {
@@ -30,6 +31,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:var(--logo-color);
+}
+
+.span-logo{
+  color:var(--span-logo-color)
 
 }
 
