@@ -34,10 +34,10 @@ body {
 }
 
 .navigation {
-  font-size: 16px;
+  /* font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #2e2f42; */
 }
 .adress:is(:hover, :focus) {
   color:var(--second-color-link)
