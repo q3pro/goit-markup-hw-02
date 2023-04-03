@@ -64,8 +64,12 @@ body {
   color:var(--second-address-color) ;
 }
 
-/**=================MAIN-page-2=================*/
-.header-btn {
+/**=================BUTTONS=================*/
+.buttons{
+
+}
+
+/* .header-btn {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -77,10 +81,10 @@ body {
 
 .header-btn:is(:hover, :focus) {
   background-color: #404bbf;
-  color: var(--second-color-btn);
+  color: var(--second-color-btn); */
 }
 
-/**=================PORTFOLIO=================*/
+/**=================MAIN=================*/
 
 .portfolio-text {
   font-weight: 500;
