@@ -5,6 +5,7 @@
   --body-background-color: #FFFFFF;
   --logo-color: #4d5ae5;
   --span-logo-color:#2e2f42;
+  --nav-link-color: 
 }
 
 body {
@@ -23,6 +24,9 @@ body {
 }
 
 /**=================HEDAR=================*/
+.navigation {
+}
+
 .header-logo{
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -35,14 +39,13 @@ body {
 
 .span-logo{
   color:var(--span-logo-color)
-
 }
 
-.navigation {
-  /* font-size: 16px;
+
+.link-nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42; */
+  color: 
 }
 .adress:is(:hover, :focus) {
   color:var(--second-color-link)
