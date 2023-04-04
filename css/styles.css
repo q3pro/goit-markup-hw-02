@@ -8,8 +8,8 @@
   --second-address-color: #404bbf;
   --second-color-btn: #e7e9fc;
   --bgcolor-home-page: #2e2f42;
-  --btncolor-home-page:#404BBF; 
-  --about-top-text-color:#2e2f42;
+  --btncolor-home-page: #404bbf;
+  --about-top-text-color: #2e2f42;
 }
 
 body {
@@ -70,18 +70,18 @@ body {
 /**=================HomePage=================*/
 .home-page {
   background-color: var(--bgcolor-home-page);
-} 
+}
 
- .hp-top-text {
+.hp-top-text {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center; 
+  text-align: center;
 }
 
-.hp-button{
-  background-color: #4D5AE5;
+.hp-button {
+  background-color: #4d5ae5;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -95,19 +95,18 @@ body {
   background-color: var(--btncolor-home-page);
 }
 
-.about-top-text{
+.about-top-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color:var(--about-top-text-color)
+  color: var(--about-top-text-color);
 }
 
-.about-low-text{
+.about-low-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 
 /**=================BUTTONS=================*/
 
@@ -125,8 +124,6 @@ body {
   background-color: #404bbf;
   color: var(--second-color-btn);
 }
-
-
 
 /**=================MAIN=================*/
 
