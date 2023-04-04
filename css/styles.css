@@ -7,7 +7,8 @@
   --second-link-color: #404bbf;
   --address-color: #434455;
   --second-address-color: #404bbf;
-  --second-color-btn: #E7E9FC;
+  --second-color-btn: #e7e9fc;
+  --bgcolor-home-page-: #2e2f42;
 }
 
 body {
@@ -63,6 +64,18 @@ body {
 }
 .address:is(:hover, :focus) {
   color: var(--second-address-color);
+}
+
+/**=================HomePage=================*/
+.home-page {
+  background-color: var(--bgcolor-home-page-);
+}
+.aling-centr {
+  text-align: center;
+}
+.hp-top-text {
+  font-size: 56px;
+  line-height: 1.07;
 }
 
 /**=================BUTTONS=================*/
