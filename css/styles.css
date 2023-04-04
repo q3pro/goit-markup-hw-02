@@ -1,5 +1,4 @@
 :root {
-  /*--second-color-footer: #F4F4FD; */
   --body-background-color: #ffffff;
   --logo-color: #4d5ae5;
   --span-logo-color: #2e2f42;
@@ -10,6 +9,7 @@
   --second-color-btn: #e7e9fc;
   --bgcolor-home-page: #2e2f42;
   --btncolor-home-page:#404BBF; 
+  --about-top-text-color:#2e2f42;
 }
 
 body {
@@ -91,9 +91,23 @@ body {
   cursor: pointer;
 }
 
-.hp-button:is:(:hover, :focus) {
+.hp-button:is(:hover, :focus) {
   background-color: var(--btncolor-home-page);
 }
+
+.about-top-text{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color:var(--about-top-text-color)
+}
+
+.about-low-text{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 
 /**=================BUTTONS=================*/
 
@@ -111,6 +125,8 @@ body {
   background-color: #404bbf;
   color: var(--second-color-btn);
 }
+
+
 
 /**=================MAIN=================*/
 
