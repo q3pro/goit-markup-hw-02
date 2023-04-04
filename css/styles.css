@@ -113,7 +113,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  color: ;
+  color: var(--h2-text-color);
 }
 
 /**=================BUTTONS=================*/
