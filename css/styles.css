@@ -6,12 +6,12 @@
   --second-link-color: #404bbf;
   --address-color: #434455;
   --second-address-color: #404bbf;
-  --porfolio-btn-bgc:#F4F4FD;
+  --porfolio-btn-bgc: #f4f4fd;
   --bgcolor-home-page: #2e2f42;
   --btncolor-home-page: #404bbf;
   --about-top-text-color: #2e2f42;
   --h2-text-color: #2e2f42;
-  --portfolio-btn-color:#4d5ae5;
+  --portfolio-btn-color: #4d5ae5;
 }
 
 body {
@@ -136,13 +136,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color:var(--portfolio-btn-color) ;
-  background-color:var(--porfolio-btn-bgc) ;
+  color: var(--portfolio-btn-color);
+  background-color: var(--porfolio-btn-bgc);
 }
 
 .header-btn:is(:hover, :focus) {
-  background-color:var(--porfolio-btn-bgc) ;
-  color: #FFFFFF;
+  background-color: var(--porfolio-btn-bgc);
+  color: #ffffff;
 }
 
 /**=================MAIN=================*/
