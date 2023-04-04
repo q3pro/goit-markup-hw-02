@@ -11,6 +11,7 @@
   --btncolor-home-page: #404bbf;
   --about-top-text-color: #2e2f42;
   --h2-text-color: #2e2f42;
+  --portfolio-btn-color:#4d5ae5;
 }
 
 body {
@@ -135,6 +136,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  color:var(--portfolio-btn-color) ;
+  background-color:var(--porfolio-btn-bgc) ;
 }
 
 .header-btn:is(:hover, :focus) {
