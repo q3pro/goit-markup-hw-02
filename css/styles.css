@@ -6,7 +6,7 @@
   --second-link-color: #404bbf;
   --address-color: #434455;
   --second-address-color: #404bbf;
-  --second-color-btn: #e7e9fc;
+  --porfolio-btn-bgc:#F4F4FD;
   --bgcolor-home-page: #2e2f42;
   --btncolor-home-page: #404bbf;
   --about-top-text-color: #2e2f42;
@@ -128,18 +128,18 @@ body {
 /**=================BUTTONS=================*/
 
 .header-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
-  color: #4d5ae5;
 }
 
 .header-btn:is(:hover, :focus) {
-  background-color: #404bbf;
-  color: var(--second-color-btn);
+  background-color:var(--porfolio-btn-bgc) ;
+  color: #FFFFFF;
 }
 
 /**=================MAIN=================*/
