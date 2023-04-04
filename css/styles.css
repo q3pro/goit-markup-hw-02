@@ -141,7 +141,7 @@ body {
 }
 
 .header-btn:is(:hover, :focus) {
-  background-color: var(--porfolio-btn-bgc);
+  background-color: #404BBF;
   color: #ffffff;
 }
 
