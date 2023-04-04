@@ -141,7 +141,7 @@ body {
 }
 
 .header-btn:is(:hover, :focus) {
-  background-color: #404BBF;
+  background-color: #404bbf;
   color: #ffffff;
 }
 
