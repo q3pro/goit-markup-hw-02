@@ -70,12 +70,14 @@ body {
 .home-page {
   background-color: var(--bgcolor-home-page-);
 }
-.aling-centr {
-  text-align: center;
-}
+
 .hp-top-text {
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+
 }
 
 /**=================BUTTONS=================*/
